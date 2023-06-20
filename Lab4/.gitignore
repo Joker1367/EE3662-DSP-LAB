@@ -1,4 +1,6 @@
 *.tmp
+*.pptx
 *.zip
 *.docx
-/__pycache__
+*.pyc
+/data
