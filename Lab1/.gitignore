@@ -1,0 +1,5 @@
+*.zip
+*.docx
+*.txt
+/__pycache__
+test.py
