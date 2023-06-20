@@ -1,3 +1,4 @@
+*.tmp
 *.zip
 *.docx
 /__pycache__
