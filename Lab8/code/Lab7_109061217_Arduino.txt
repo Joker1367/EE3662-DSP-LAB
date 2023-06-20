@@ -1,0 +1,40 @@
+int pot = A0;
+int val = 0;
+int start_time;
+int now_time;
+
+int bottom = 50;
+int top = 850;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+  pinMode(pot,INPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  start_time = micros();
+
+  val = analogRead(pot);    //read analog input
+
+  if(val < bottom) {
+    bottom = (val > 10) ? val - 10 : 0;
+    top = (bottom < 223) ? bottom + 800 : 1023;
+  }
+  if(val > top) {
+    top = (val < 1013) ? val + 10 : 1023;
+    bottom = (top > 800) ? top - 800 : 0;
+  }
+  val = map(val, bottom, top, 0, 255);    //mapping
+
+  Serial.println(val,DEC);     //print on Matlab  
+
+  now_time = micros();
+  
+  while(now_time-start_time < 2000){    //sample rate  
+    now_time = micros();
+  }
+   
+}
