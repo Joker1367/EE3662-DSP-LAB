@@ -1,0 +1,8 @@
+*.tmp
+*.pptx
+*.zip
+*.docx
+*.pyc
+*.MOV
+*.rar
+/data
