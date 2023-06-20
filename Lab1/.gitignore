@@ -3,4 +3,4 @@
 *.docx
 *.txt
 /__pycache__
-test.py
+*.py
