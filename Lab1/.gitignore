@@ -2,5 +2,5 @@
 *.zip
 *.docx
 *.txt
+*.pyc
 test.py
-__pycache__
