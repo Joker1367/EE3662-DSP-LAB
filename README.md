@@ -33,5 +33,5 @@ Instructor : Prof. Min Sun
 related topic : Image Processing
 
 ## Final Project
-Topic : 從球拍線震動音頻判斷其張力與應用
+Topic : 從球拍線震動音頻判斷其張力與應用  
 Member : 郭紹儀、陳漢璋、林峻霆
