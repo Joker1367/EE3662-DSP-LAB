@@ -20,7 +20,7 @@ Instructor : Prof. Meng-Lin Lee
 3. Pre-processing for ECG
 4. Real-Time Heart Rate Estimation System Design
 
-related topic : ECG, real-time system
+related topic : ECG, real-time signal processing
 
 ## Part III : Visual Signal
 Instructor : Prof. Min Sun
